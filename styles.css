@@ -1,0 +1,131 @@
+/* inter normal font */
+@font-face {
+  font-family: inter;
+  src: url('./fonts/Inter/static/Inter-Regular.ttf');
+  font-weight: normal;
+}
+
+/* inter bold font */
+@font-face {
+  font-family: inter;
+  src: url('./fonts/Inter/static/Inter-Bold.ttf');
+  font-weight: bold;
+}
+
+/* lora normal font */
+@font-face {
+  font-family: lora;
+  src: url('./fonts/Lora/static/Lora-Regular.ttf');
+  font-weight: normal;
+}
+
+/* lora bold font */
+@font-face {
+  font-family: lora;
+  src: url('./fonts/Lora/static/Lora-Bold.ttf');
+  font-weight: bold;
+}
+
+:root{
+  --orange : rgb(169, 121, 43);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+h1{
+  font-family: 'Lora', serif;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.pd-2{
+  padding: 2em;
+}
+
+body{ 
+  background: url('./img/wood-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.first-row{
+  position: relative;
+}
+
+.logo-container, .website{
+  background-color: var(--orange);  
+  padding: 1em;
+  margin-left: 0.5em;
+}
+
+.logo-container, .website{
+  width: 160px;
+  justify-content: center;
+}
+
+.hd-receipes{
+  font-size: 6rem;
+  text-transform: uppercase;
+  position: absolute;
+  left: 165px;
+  top: 42px;
+  color: #F3F4F6;
+}
+
+.menus{
+  background-color: #fff;
+  width: 72.5%;
+  padding: 5em;
+}
+
+.menus > ul{
+  flex-wrap: wrap;
+  column-gap: 3em;
+  row-gap: 3em;
+}
+
+.menu-img{
+  width: 240px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.menu-link{
+  flex-direction: column;
+  width: 240px;
+  text-align: center;
+  gap: 1em;
+  text-decoration: none;
+  padding-bottom: 1em;
+  color: #000;
+  border-bottom: 2px solid var(--orange);
+}
+
+.menu-img-icon{
+  width: 23%;
+  position: absolute;
+  bottom: -55%;
+  right: 1%;
+  height: auto;
+}
+
+.website > a{
+  color: #F3F4F6;
+  text-decoration: none;
+}
+
+.website > a:hover{
+  color: #fff;
+}
