@@ -73,6 +73,10 @@ body{
   margin: 0;  
 }
 
+.align-right{
+  text-align: right;
+}
+
 .container{
   background: url('./img/wood-bg.jpg');
   background-repeat: no-repeat;
@@ -99,7 +103,7 @@ body{
   text-transform: uppercase;
   position: absolute;
   left: 165px;
-  top: 46px;
+  top: 34px;
   color: var(--light-grey);
 }
 
@@ -269,11 +273,31 @@ footer{
   padding-top: 2em;
 }
 
+.nutrition-table{
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+.nutrition-table td {
+  border-top: 1px solid var(--light-grey);
+  padding-block: 0.25em;
+}
+
+td.pb-half{
+  padding-block: 0.5em;
+}
+
+.nutrition-table tr:last-child > td {
+  border-bottom: 1px solid var(--light-grey);
+}
+
 .left-side{
   flex-basis: 60%;
   flex-direction: column;
-  gap: 3em;
-  padding-bottom: 2em;
+}
+
+.left-side > div + div {
+  padding-block: 4em;
 }
 
 .desc-container{
@@ -305,6 +329,8 @@ h2{
 
 .steps-container{
   gap: 3.7em;
+  border-top: 1px solid var(--light-orange);
+  padding-bottom: 4em;
 }
 
 .steps-ol{
