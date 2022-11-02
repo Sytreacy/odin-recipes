@@ -206,7 +206,7 @@ footer{
 .recipe-name{
   align-self: center;
   text-align: center;
-  background-color: rgba(255,255,255, 0.4);
+  background-color: rgba(255,255,255, 0.6);
   top: 15px;
   padding-block: 0.25em;
 }
@@ -214,6 +214,7 @@ footer{
 .recipe-img{
   height: 400px;
   object-fit: cover;
+  object-position: center;
   margin: 0 auto;
 }
 
@@ -297,7 +298,7 @@ td.pb-half{
 }
 
 .left-side > div + div {
-  padding-block: 4em;
+  padding-block: 3em;
 }
 
 .desc-container{
@@ -312,24 +313,36 @@ h2{
   gap: 4em;
 }
 
-.ingredients-container > ul > li::marker{
-  content: '\2767';
-  color: var(--light-orange);
-}
-
-.ingredient-ul{
+.ingredient-ul, .seasoned-ul{
   flex-direction: column;
   margin-top: 0.5em;
   gap: 0.5em;
 }
 
-.ingredient-ul > li{
+.ingredient-ul > li, .seasoned-ul > li{
   padding-left: 1em;
+}
+
+.ingredient-ul > li::marker{
+  content: '\2767';
+  color: var(--light-orange);
+}
+
+.seasoned-container{
+  gap: 3em;
+}
+
+.seasoned-ul > li::marker{
+  content: '\1f65e';
+  color: var(--light-orange);
+}
+
+.seasoned-container, .steps-container{
+  border-top: 1px solid var(--light-orange);
 }
 
 .steps-container{
   gap: 3.7em;
-  border-top: 1px solid var(--light-orange);
   padding-bottom: 4em;
 }
 

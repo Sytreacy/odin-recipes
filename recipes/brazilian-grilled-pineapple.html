@@ -1,126 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Brazilian Grilled Pineapple</title>
-	</head>
-	<body>
-		<h1>Brazilian Grilled Pineapple</h1>
-		<figure>
-			<img
-				src="https://www.allrecipes.com/thmb/uijv3Z9m--sC_djBjQBUXrJZdT8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/235932-brazilian-grilled-pineapple-4x3-00066-3632fd51d21e4e7ca3d5f9fa134c3b60.jpg"
-				alt="Brazilian Grilled Pineapple image"
-			/>
-			<figcaption>
-				<dl>
-					<dt>Description</dt>
-					<dd>
-						These grilled pineapple slices are a favorite at a Brazilian steakhouse in Dallas. Not sure if this is the exact recipe they use but it tastes very close. Great side for kabobs and steak.
-					</dd>
-					<div>
-						<div>
-							<strong>Prep Time: </strong>
-							10 mins
-						</div>
-						<div>
-							<strong>Cook Time:</strong>
-							10 mins
-						</div>
-						<div>
-							<strong>Total Time: </strong>
-							20 mins
-						</div>
-						<div>
-							<strong>Servings: </strong>
-							6
-						</div>
-                        <div>
-							<strong>Yield: </strong>
-							6 wedges
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Brazilian Grilled Pineapple</title>
+	<link rel="icon" type="image/png" href="./../img/favicon-32x32.png" sizes="32x32">
+	<link rel="stylesheet" href="./../styles.css" />
+</head>
+
+<body>
+	<div class="recipe-wrapper p-relative">
+		<a class="d-flex logo-bg p-absolute" href="https://sytreacy.github.io/odin-recipes/">
+			<svg xmlns="http://www.w3.org/2000/svg" width="80" height="auto" viewBox="0 0 44 59" fill="none" role="img"
+				aria-labelledby="aktcxqxq1du0mbcksdh6vm93d53s3a7n">
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M8.68945 34.7331L13.1482 19.2902H30.9833L35.442 34.7331H8.68945Z" fill="#EED9C3"></path>
+				<ellipse cx="27.7849" cy="27.1223" rx="1.26005" ry="1.24284" fill="#353535"></ellipse>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M19.446 25.7092C19.446 25.2752 19.0891 24.9233 18.6493 24.9233C17.638 24.9233 15.9034 24.9233 14.8922 24.9233C14.4523 24.9233 14.0955 25.2752 14.0955 25.7092C14.0955 26.3856 14.0955 27.3716 14.0955 28.1426C14.0955 28.7935 14.6305 29.3212 15.2902 29.3212C15.6995 29.3212 16.1763 29.3212 16.6578 29.3212C17.3973 29.3212 18.1062 29.0314 18.6295 28.5155C19.1522 28.0001 19.446 27.3004 19.446 26.5712C19.446 26.2585 19.446 25.9621 19.446 25.7092Z"
+					fill="#A78347"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M35.0004 4.5308L43.8517 0L39.0002 18L35.0002 22L35.0004 4.5308Z" fill="#E3B261"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M8.8514 4.5308L0.000132561 0L4.85156 18L8.85156 22L8.8514 4.5308Z" fill="#E3B261"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M35.442 12.7438C35.442 12.7438 28.7539 8.34589 22.0657 8.34589C15.3776 8.34589 8.68945 12.7438 8.68945 12.7438V25.9373L10.473 29.4556C11.7527 24.5929 17.5445 22.5672 21.576 25.5723L22.0657 25.9373L22.5554 25.5723C26.587 22.5672 32.3788 24.5929 33.6585 29.4556L35.442 25.9373V12.7438Z"
+					fill="#E3B261"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M17.6068 32.5341L14.0398 53.2041L9.12134 49.6858L13.148 34.7331L17.6068 32.5341Z" fill="#D4D4D4"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M26.5243 32.5341L30.0913 53.2041L35.0098 49.6858L30.9831 34.7331L26.5243 32.5341Z" fill="#D5D5D5"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M8.68933 25.9373L5.12231 39.1309L9.58108 47.9267L13.1481 34.7331L8.68933 25.9373Z" fill="#E6E6E6"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M35.4418 25.9373L39.0088 39.1309L34.55 47.9267L30.983 34.7331L35.4418 25.9373Z" fill="#E6E6E6"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M17.6069 32.5341L13.594 54.0837L22.0656 58.4815L30.5373 54.0837L26.5244 32.5341L22.3983 30.4992L22.0656 30.3352L17.6069 32.5341Z"
+					fill="#E6E6E6"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M23.6636 33.4137H20.5425C20.5425 33.4137 20.5425 33.9348 20.5425 34.514C20.5425 34.9222 20.707 35.3131 20.9995 35.6016C21.292 35.8901 21.6884 36.0524 22.1022 36.0524C22.1026 36.0524 22.1035 36.0524 22.1039 36.0524C22.5177 36.0524 22.9141 35.8901 23.2066 35.6016C23.4991 35.3131 23.6636 34.9222 23.6636 34.514C23.6636 33.9348 23.6636 33.4137 23.6636 33.4137Z"
+					fill="#353535"></path>
+			</svg>
+		</a>
+		<div>
+			<h1 class="recipe-name w-100 p-absolute">
+				Brazilian Grilled Pineapple
+			</h1>
+			<figure>
+				<img class="d-flex recipe-img w-100"
+					src="https://www.allrecipes.com/thmb/uijv3Z9m--sC_djBjQBUXrJZdT8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/235932-brazilian-grilled-pineapple-4x3-00066-3632fd51d21e4e7ca3d5f9fa134c3b60.jpg"
+					alt="Brazilian Grilled Pineapple image" />
+
+				<div class="d-flex content-container p-relative">
+					<div class="right-side p-relative">
+						<img class="duration-pattern-img w-100" src="./../img/pattern.jpg" alt="pattern image" />
+						<img class="prepare-meal-img" src="../img/prepare-meal1.webp" alt="prepare meal image" />
+						<div class="facts d-flex">
+							<div class="duration">
+								<div>
+									<strong>Prep Time: </strong>
+									10 mins
+								</div>
+								<div>
+									<strong>Cook Time:</strong>
+									10 mins
+								</div>
+								<div>
+									<strong>Total Time: </strong>
+									20 mins
+								</div>
+								<div>
+									<strong>Servings: </strong>
+									6
+								</div>
+								<div>
+									<strong>Yield: </strong>
+									6 wedges
+								</div>
+							</div>
+							<div class="nutrition-container">
+								<div>
+									<h2>Nutrition Facts</h2>
+									<p>Servings Per Recipe: 6</p>
+									<p>Calories: 255</p>
+								</div>
+								<table class="w-100 nutrition-table">
+									<tr>
+										<td class="align-right pb-half" colspan="2">% Daily Value *</td>
+									</tr>
+									<tr>
+										<td>Total Fat: 0g</td>
+										<td>0%</td>
+									</tr>
+									<tr>
+										<td>Sodium: 13mg</td>
+										<td>1%</td>
+									</tr>
+									<tr>
+										<td>Total Carbohydrate: 66g</td>
+										<td>24%</td>
+									</tr>
+									<tr>
+										<td>Dietary Fiber: 4g</td>
+										<td>13%</td>
+									</tr>
+									<tr>
+										<td colspan="2">Total Sugars: 58g</td>
+									</tr>
+									<tr>
+										<td colspan="2">Protein: 1g</td>
+									</tr>
+									<tr>
+										<td>Vitamin C: 109mg</td>
+										<td>543%</td>
+									</tr>
+									<tr>
+										<td>Calcium: 68mg</td>
+										<td>5%</td>
+									</tr>
+									<tr>
+										<td>Iron: 1mg</td>
+										<td>6%</td>
+									</tr>
+									<tr>
+										<td>Potassium: 300mg</td>
+										<td>6%</td>
+									</tr>
+								</table>
+								<p>
+									* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower
+									depending on your calorie needs.
+								</p>
+								<p>
+									** Nutrient information is not available for all ingredients. Amount is based on available nutrient
+									data.
+								</p>
+								<p>
+									(-) Information is not currently available for this nutrient. If you are following a medically
+									restrictive diet, please consult your doctor or registered dietitian before preparing this recipe
+									for personal consumption.
+								</p>
+								<p>
+									Powered by the ESHA Research Database © 2018, <a href="https://www.esha.com/">ESHA Research,
+										Inc.</a> All Rights Reserved
+								</p>
+							</div>
 						</div>
 					</div>
-					<dt>Ingredients</dt>
-					<dd>
-						<ul>
-							<li>1 cup brown sugar</li>
-							<li>2 teaspoons ground cinnamon</li>
-							<li>1 pineapple - peeled, cored, and cut into 6 wedges</li>
-						</ul>
-					</dd>                   
-					<dt>Steps</dt>
-					<dd>
-						<ol>
-							<li>Preheat an outdoor grill for medium-high heat and lightly oil the grate.</li>
-                            <li>Whisk brown sugar and cinnamon together in a bowl; transfer into a large resealable plastic bag. Add pineapple wedges to the bag; shake well to coat each wedge.</li>
-                            <li>Grill pineapple wedges on the preheated grill until heated through, 3 to 5 minutes per side.</li>                            
-						</ol>
-					</dd>
-				</dl>
-			</figcaption>
-		</figure>
-		<div>
-			<div>
-				<h2>Nutrition Facts</h2>
-				<p>Servings Per Recipe: 6</p>
-				<p>Calories: 255</p>
-			</div>
-			<table>
-				<tr>
-					<td>% Daily Value *</td>
-				</tr>
-				<tr>
-					<td>Total Fat: 0g</td>
-					<td>0%</td>
-				</tr>
-				<tr>
-					<td>Sodium: 13mg</td>
-					<td>1%</td>
-				</tr>
-				<tr>
-					<td>Total Carbohydrate: 66g</td>
-					<td>24%</td>
-				</tr>
-				<tr>
-					<td>Dietary Fiber: 4g</td>
-					<td>13%</td>
-				</tr>
-				<tr>
-					<td>Total Sugars: 58g</td>
-				</tr>
-				<tr>
-					<td>Protein: 1g</td>
-				</tr>
-				<tr>
-					<td>Vitamin C: 109mg</td>
-					<td>543%</td>
-				</tr>
-				<tr>
-					<td>Calcium: 68mg</td>
-					<td>5%</td>
-				</tr>
-				<tr>
-					<td>Iron: 1mg</td>
-					<td>6%</td>
-				</tr>
-				<tr>
-					<td>Potassium: 300mg</td>
-					<td>6%</td>
-				</tr>
-			</table>
-			<p>
-				* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
-			</p>
-			<p>
-				** Nutrient information is not available for all ingredients. Amount is based on available nutrient data.
-			</p>
-			<p>
-				(-) Information is not currently available for this nutrient. If you are following a medically restrictive diet, please consult your doctor or registered dietitian before preparing this recipe for personal consumption.
-			</p>	
-			<p>
-				Powered by the ESHA Research Database © 2018, <a href="https://www.esha.com/">ESHA Research, Inc.</a> All Rights Reserved
-			</p>	
+					<div class="left-side d-flex">
+						<div class="desc-container pd-2">
+							<h2>Description</h2>
+							<p>
+								These grilled pineapple slices are a favorite at a Brazilian steakhouse in Dallas. Not sure if this is
+								the exact recipe they use but it tastes very close. Great side for kabobs and steak.
+							</p>
+						</div>
+
+						<div class="d-flex ingredients-container">
+							<h2>Ingredients</h2>
+							<ul class="d-flex ingredient-ul">
+								<li>1 cup brown sugar</li>
+								<li>2 teaspoons ground cinnamon</li>
+								<li>1 pineapple - peeled, cored, and cut into 6 wedges</li>
+							</ul>
+						</div>
+						<div class="d-flex steps-container">
+							<h2>Steps</h2>
+							<ol class="steps-ol d-flex gap-2">
+								<li>Preheat an outdoor grill for medium-high heat and lightly oil the grate.</li>
+								<li>Whisk brown sugar and cinnamon together in a bowl; transfer into a large resealable plastic bag. Add
+									pineapple wedges to the bag; shake well to coat each wedge.</li>
+								<li>Grill pineapple wedges on the preheated grill until heated through, 3 to 5 minutes per side.</li>
+						</div>
+					</div>
+				</div>
+			</figure>
 		</div>
-	</body>
+
+		<footer class="d-flex bg-light-grey">
+			<div class="website">
+				<a href="https://sytreacy.github.io/odin-recipes/">odinrecipes.com</a>
+			</div>
+			<div class="d-flex align-center gap-1 info">
+				<p>Project by: Sytreacy</p>
+				<div class="d-flex align-center gap-1">
+					<a href="https://github.com/Sytreacy">
+						<svg class="d-flex social-link" width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+							<path
+								d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+						</svg>
+					</a>
+					<a href="https://discord.com/users/926508364249333811">
+						<svg class="d-flex social-link" width="38px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+							<path
+								d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z" />
+						</svg>
+					</a>
+					<a href="https://www.facebook.com/win.maw69/">
+						<svg class="d-flex social-link" width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+							<path
+								d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+						</svg>
+					</a>
+					<a href="https://www.linkedin.com/in/win-win-maw/">
+						<svg class="d-flex social-link" width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<path
+								d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+						</svg>
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
 </html>
