@@ -98,13 +98,13 @@ body{
   justify-content: center;
 }
 
-.hd-receipes{
+.hd-recipes{
   font-size: 6rem;
   text-transform: uppercase;
-  position: absolute;
-  left: 165px;
-  top: 34px;
+  position: relative;
+  top: 74px;
   color: var(--light-grey);
+  line-height: 0.75;
 }
 
 .menus{
